@@ -14,8 +14,8 @@ public class Stringex {
         System.out.println("Welcome... "+personalised);
     }
 
-    static String myGreet(String name,String surname){
-        String Fullname = name+" " + surname ;
+    static String myGreet(String care,String free){
+        String Fullname = care+" " + free ;
         return Fullname;
     }
     static String greet(){
